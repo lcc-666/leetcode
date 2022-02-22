@@ -25,9 +25,10 @@ class Solution:
         nums=self.nums
         k=self.k
         #算法部分
+        k = k % len(nums)
         for i in range(k):
-            a=nums.pop(0)
-            nums.append(a)
+            a=nums.pop()
+            nums.insert(0,a)
         print(nums)
 
 
