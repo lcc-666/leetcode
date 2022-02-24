@@ -1,6 +1,8 @@
 # leetcode
 刷一刷算法题
+
 第一周
+
 1.两数之和:Two Sum
 
 2.两数相加:Add Two Numbers
@@ -18,3 +20,5 @@
 8.移动零:Move Zeroes
 
 9.两数之和 II - 输入有序数组:Two Sum II - Input Array Is Sorted
+
+10.反转字符串:Reverse String
