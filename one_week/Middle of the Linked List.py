@@ -16,6 +16,7 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next 
 由于该列表有两个中间结点，值分别为 3 和 4，我们返回第二个结点。
 """
 
+
 # Definition for singly-linked list.
 def list_to_link(nums):
     """
@@ -28,26 +29,28 @@ def list_to_link(nums):
         head = head.next
     return new.next
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
+
 class Solution:
     def __init__(self):
-        ls=[1,2,3,4,5]
-        self.head=list_to_link(ls)
+        ls = [1, 2, 3, 4, 5]
+        self.head = list_to_link(ls)
 
     def middleNode(self):
-        head=self.head
-        #算法部分
-        slow=fast=head
+        head = self.head
+        # 算法部分
+        slow = fast = head
         while fast and fast.next:
-            slow=slow.next
-            fast=fast.next.next
+            slow = slow.next
+            fast = fast.next.next
         return slow
+
+
 if __name__ == '__main__':
-    t=Solution()
-    s=t.middleNode()
-
-
+    t = Solution()
+    s = t.middleNode()
