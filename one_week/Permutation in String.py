@@ -17,8 +17,8 @@
 
 class Solution:
     def __init__(self):
-        self.s1 = "dbb"
-        self.s2 = "ccc"
+        self.s1 = "ba"
+        self.s2 = "ab"
 
     def checkInclusion(self):
         s1 = self.s1
@@ -33,6 +33,11 @@ class Solution:
                 dict1[i] = dict1[i] + 1
             else:
                 dict1[i] = 1
+        if n1 ==1:
+            if s1 in s2:
+                return True
+            else:
+                return False
 
         if n1 > n2:
             return False
@@ -42,17 +47,31 @@ class Solution:
             else:
                 break
 
-        for i in range((n2 - n1) + 1):
-            s = s2[i:i + n1]
-            for item in s:
-                if item in dict2:
-                    dict2[item] = dict2[item] + 1
-                else:
-                    dict2[item] = 1
-            if dict1 == dict2:
-                return True
+        for i in s2[0:n1]:
+            if i in dict2:
+                dict2[i] = dict2[i] + 1
             else:
-                dict2.clear()
+                dict2[i] = 1
+        if dict1 == dict2 :
+            return True
+        for i in range(1,(n2 - n1) + 1):
+            s = s2[i:i + n1]
+            x=s2[i-1]
+            y=s2[i+n1-1]
+            if x==y:
+                continue
+
+            dict2[x]=dict2[x]-1
+            if dict2[x]==0:
+                del dict2[x]
+
+            if y in dict2:
+                dict2[y]=dict2[y]+1
+            else:
+                dict2[y]=1
+            if dict1==dict2:
+                return True
+
         return False
 
 
