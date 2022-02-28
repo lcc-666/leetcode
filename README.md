@@ -20,8 +20,3 @@
 8.移动零:Move Zeroes
 
 9.两数之和 II - 输入有序数组:Two Sum II - Input Array Is Sorted
-
-第二周
-1.图像渲染:Flood Fill
-
-2.岛屿的最大面积:Max Area of Island
