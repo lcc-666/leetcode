@@ -38,3 +38,7 @@
 
 2.岛屿的最大面积:Max Area of Island
 
+3.合并二叉树:Merge Two Binary Trees
+
+4.填充每个节点的下一个右侧节点指针:Populating Next Right Pointers in Each Node
+
