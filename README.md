@@ -49,3 +49,9 @@
 7.反转链表:Reverse Linked List
 
 8.反转链表:Reverse Linked List
+
+9.组合:Combinations
+
+10.全排列:Permutations
+
+11.字母大小写全排列:Letter Case Permutation
