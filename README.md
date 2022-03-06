@@ -46,7 +46,7 @@
 
 6.腐烂的橘子:Rotting Oranges
 
-7.反转链表:Reverse Linked List
+7.合并两个有序链表:Merge Two Sorted Lists
 
 8.反转链表:Reverse Linked List
 
