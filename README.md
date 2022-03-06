@@ -55,3 +55,9 @@
 10.全排列:Permutations
 
 11.字母大小写全排列:Letter Case Permutation
+
+12.爬楼梯:Climbing Stairs
+
+13.打家劫舍:House Robber
+
+14.三角形最小路径和:Triangle
