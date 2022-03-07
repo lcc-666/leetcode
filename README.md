@@ -62,3 +62,13 @@
 13.打家劫舍:House Robber
 
 14.三角形最小路径和:Triangle
+
+第三周（基础算法）
+
+第一天
+
+在排序数组中查找元素的第一个和最后一个位置:Find First and Last Position of Element in Sorted Array
+
+搜索旋转排序数组:Search in Rotated Sorted Array
+
+搜索二维矩阵:Search a 2D Matrix
