@@ -75,6 +75,6 @@
 
 第二天
 
-寻找旋转排序数组中的最小值 寻找旋转排序数组中的最小值:Find Minimum in Rotated Sorted Array
+寻找旋转排序数组中的最小值:Find Minimum in Rotated Sorted Array
 
 寻找峰值:Find Peak Element
