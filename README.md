@@ -100,3 +100,7 @@
 乘积小于K的子数组:Subarray Product Less Than K
 
 长度最小的子数组:Minimum Size Subarray Sum
+
+岛屿数量:Number of Islands
+
+省份数量:Number of Provinces
