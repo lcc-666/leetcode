@@ -156,3 +156,9 @@
 跳跃游戏 II:Jump Game II
 
 不同路径:Unique Paths
+
+第七天
+
+最长回文子串:Longest Palindromic Substring
+
+等差数列划分:Arithmetic Slices
