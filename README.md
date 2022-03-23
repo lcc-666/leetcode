@@ -170,3 +170,9 @@
 解码方法:Decode Ways
 
 单词拆分:Word Break
+
+第二天
+
+最长递增子序列:Longest Increasing Subsequence
+
+最长递增子序列的个数:Number of Longest Increasing Subsequence
