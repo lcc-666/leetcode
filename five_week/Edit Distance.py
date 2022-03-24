@@ -27,34 +27,36 @@ exention -> exection (将 'n' 替换为 'c')
 exection -> execution (插入 'u')
 """
 
+
 class Solution:
     def __init__(self):
-        self.word1="intention"
-        self.word2="execution"
+        self.word1 = "intention"
+        self.word2 = "execution"
+
     def minDistance(self):
-        word1=self.word1
-        word2=self.word2
-        #算法部分
-        n=len(word1)
-        m=len(word2)
+        word1 = self.word1
+        word2 = self.word2
+        # 算法部分
+        n = len(word1)
+        m = len(word2)
 
-        if n*m==0:
-            return n+m
+        if n * m == 0:
+            return n + m
 
-        D=[[0]*(m+1) for _ in range(n+1)]
+        D = [[0] * (m + 1) for _ in range(n + 1)]
 
-        for i in range(n+1):
-            D[i][0]=i
-        for j in range(m+1):
-            D[0][j]=j
+        for i in range(n + 1):
+            D[i][0] = i
+        for j in range(m + 1):
+            D[0][j] = j
 
-        for i in range(1,n+1):
-            for j in range(1,m+1):
-                left=D[i-1][j]+1
-                down=D[i][j-1]+1
-                left_down=D[i-1][j-1]
-                if word1[i-1]!=word2[j-1]:
-                    left_down+=1
-                D[i][j]=min(left,down,left_down)
+        for i in range(1, n + 1):
+            for j in range(1, m + 1):
+                left = D[i - 1][j] + 1
+                down = D[i][j - 1] + 1
+                left_down = D[i - 1][j - 1]
+                if word1[i - 1] != word2[j - 1]:
+                    left_down += 1
+                D[i][j] = min(left, down, left_down)
 
         return D[n][m]
