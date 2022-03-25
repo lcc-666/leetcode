@@ -190,3 +190,7 @@
 零钱兑换:Coin Change
 
 整数拆分:Integer Break
+
+第五天
+
+数字范围按位与:Bitwise AND of Numbers Range
