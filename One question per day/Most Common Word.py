@@ -17,6 +17,7 @@ banned = ["hit"]
 注意，所有这些单词在段落里不区分大小写，标点符号需要忽略（即使是紧挨着单词也忽略， 比如 "ball,"），
 "hit"不是最终的答案，虽然它出现次数更多，但它在禁用单词列表中。
 """
+from collections import Counter
 
 
 class Solution:
